@@ -17,7 +17,7 @@ Here is a figure to our softmax code of Cifar10 classifications :
 #
 
 
-!(https://github.com/aimanyounises1/DeepLearning/figure1.png)
+![](https://github.com/aimanyounises1/DeepLearning/figure1.png)
 # Figure 1
 
 
