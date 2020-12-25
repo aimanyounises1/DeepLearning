@@ -30,8 +30,7 @@ And the meaning is we are calculating the summation of our the log of the probab
 For example assume we have a 0.90 accuracy for a Deer or other label. The value of log(0.90) is to small and it&#39;s equal to -0.044.. and we will multiply this value to -1, hence this value is to small we will see that our cost function is small too , and that&#39;s what we are aiming to, because we want to find the perfect w and b for our cost function in intend to minimize it and get a good model with a good accuracy.
 
 Using Adam optimizer made a progress in back and forward propagation searching for the weights and biases that minimize our cost function. And here is figure 2 with gradient descent for Softmax without hidden layers using gradient descent optimizer (the default nn optimizer):
-
-figure2.png
+![](https://github.com/aimanyounises1/DeepLearning/blob/master/figure2.png)
 # Figure 2
 
 As we see the difference between these two figures is not just in accuracy, it&#39;s also depends on the cost function we see that the cost function with Adam is smaller so we assume that Adam optimizer helped as to get more effective weights and biases to maximize the accuracy and minimizing the cost function because he has done a good job in forward and back propagation.
@@ -39,7 +38,7 @@ As we see the difference between these two figures is not just in accuracy, it&#
 # **Adding hidden layers to the model**
 : How we improved our test accuracy?, The answer is we added 5 hidden layers for our model using Elu activation function in order to improve the model accuracy while training. We also used Adam Optimizer and softmax for the output layers. Here is a figure 3 to our accuracy for our model with 5 hidden layers:
 
-# figure3.png
+![](https://github.com/aimanyounises1/DeepLearning/blob/master/figure3.png)
 
 # Figure 3
 
@@ -53,7 +52,7 @@ So generally we will observe the cost-function to determine our problem (if it&#
 
 In this figure we are looking for the cost function in our model which considered to be build with 5 layers we did 1001 iterations and printed the accuracy of the model every 100 iterations:
 
-figure4.png
+![](https://github.com/aimanyounises1/DeepLearning/blob/master/figure4.png)
 
 # Figure 4
 
