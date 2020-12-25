@@ -17,9 +17,10 @@ Here is a figure to our softmax code of Cifar10 classifications :
 #
 
 
-# ![](RackMultipart20201225-4-1n56802_html_394fba9691460398.png)
+figure1.png
 
 # Figure 1
+
 
 In the figure above we see that the cost function in Softmax is to high and reached 1.6821 and the accuracy of test is 0.413 which it&#39;s approximately is 41% accuracy for test. And for training we reached 0.45 which make sense why the accuracy of test is 0.4. what is the loss function? Our loss function is :
 
@@ -31,8 +32,7 @@ For example assume we have a 0.90 accuracy for a Deer or other label. The value 
 
 Using Adam optimizer made a progress in back and forward propagation searching for the weights and biases that minimize our cost function. And here is figure 2 with gradient descent for Softmax without hidden layers using gradient descent optimizer (the default nn optimizer):
 
-![](RackMultipart20201225-4-1n56802_html_712f3c28ebe86afe.png)
-
+figure2.png
 # Figure 2
 
 As we see the difference between these two figures is not just in accuracy, it&#39;s also depends on the cost function we see that the cost function with Adam is smaller so we assume that Adam optimizer helped as to get more effective weights and biases to maximize the accuracy and minimizing the cost function because he has done a good job in forward and back propagation.
@@ -40,7 +40,7 @@ As we see the difference between these two figures is not just in accuracy, it&#
 # **Adding hidden layers to the model**
 : How we improved our test accuracy?, The answer is we added 5 hidden layers for our model using Elu activation function in order to improve the model accuracy while training. We also used Adam Optimizer and softmax for the output layers. Here is a figure 3 to our accuracy for our model with 5 hidden layers:
 
-# ![](RackMultipart20201225-4-1n56802_html_5420b734a43480ec.png)
+# figure3.png
 
 # Figure 3
 
@@ -54,7 +54,7 @@ So generally we will observe the cost-function to determine our problem (if it&#
 
 In this figure we are looking for the cost function in our model which considered to be build with 5 layers we did 1001 iterations and printed the accuracy of the model every 100 iterations:
 
-![](RackMultipart20201225-4-1n56802_html_630d87f73d74b0ff.png)
+figure4.png
 
 # Figure 4
 
